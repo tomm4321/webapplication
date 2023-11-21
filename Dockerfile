@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8501
 
 # Run the Streamlit app when the container launches
-CMD ["streamlit", "run", "main.py"]
+CMD ["streamlit", "run", "web.py"]
